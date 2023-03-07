@@ -1,6 +1,6 @@
-myvar="hello"
+myvar = "hello"
 print(myvar.upper())
-myvar="Hello Mike, how is your dog?"
+myvar = "Hello Mike, how is your dog?"
 print(myvar.split())
 print(myvar.split(","))
 print(myvar.split("o"))
@@ -12,7 +12,6 @@ print(myvar[-1])
 # substring
 print(myvar[0:5])
 
-first_name="Dilara";
-last_name=""
-print(f"Hello{first_name} {last_name}")
-
+first_name = "John"
+last_name = "Doe"
+print(f"Hello {first_name} {last_name}")
